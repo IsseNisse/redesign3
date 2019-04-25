@@ -1,0 +1,37 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    background-color: #f1f1ec;
+    border-top: 5px solid #b7ff00;
+    box-shadow: 5px 10px 8px #333;
+}
+
+#logo {
+    max-width: 175px;
+    max-height: 100px;
+}
+
+#wallpaper {
+    background-image: url(../img/fuzionWallpaper2.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+section {
+    height: 68vh;
+    
+}
+
+.container .collapse .nav-item > .nav-link {
+    color: #333;
+    font-family: 'Montaga', serif;
+    font-weight: 700;
+    font-size: 26px;
+    margin: 0 20px;
+}
+
+.container .collapse .nav-item > .nav-link:hover {
+    color: #b7ff00;
+}
